@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{84a4d56f-682d-4b12-a7c9-064cc08bce09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Class">
+      <UniqueIdentifier>{fafbdcd1-0b8f-4c85-bc6b-7f6852c7580e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage Classes">
+      <UniqueIdentifier>{aeee5dbe-d4c4-41ee-9948-a082d465f6f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{f1a769ec-8023-428e-a1d6-2b479625109d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Related Classes">
+      <UniqueIdentifier>{03440a75-c0d5-49e2-9790-ba0a5eab1a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Related Classes\Transform">
+      <UniqueIdentifier>{0658d2e1-3c5c-4bbe-98fc-12c44254e288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Related Classes\Particle Model">
+      <UniqueIdentifier>{4682ec62-0178-4e83-b74d-ea6ccb8130e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Related Classes\Apperance">
+      <UniqueIdentifier>{7925f9cd-96a2-4d9f-9018-6c8a4cce6632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector Class">
+      <UniqueIdentifier>{c963612f-1121-4191-8e3a-943ece145745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Related Classes\Particle Model\PhysicModels">
+      <UniqueIdentifier>{11060748-3853-406e-8c8b-04b476125633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{f41fb584-946c-4259-ad3b-3424cf5996aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera Class">
+      <UniqueIdentifier>{f2eba217-0b07-4070-bdd7-909132b8faf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures &amp; math">
+      <UniqueIdentifier>{cad63bf7-0968-4390-ab99-d0dc905e74be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loaders">
+      <UniqueIdentifier>{1a20277d-88ad-4f98-8c85-89fedfe9b902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flotillas">
+      <UniqueIdentifier>{9781e002-4495-49a7-adb3-4993f7b569a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Related Classes\Rigid body">
+      <UniqueIdentifier>{300e82a3-6df0-437e-98f4-254773d8f92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain Generation">
+      <UniqueIdentifier>{75d34755-6d11-4187-9b5e-47844b016a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain Generation\Related Classes">
+      <UniqueIdentifier>{574359c1-3958-4ad1-ada0-8b41097ae583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flotillas\GameObjectFlotilla">
+      <UniqueIdentifier>{0d82ee8f-2c4c-4c34-9976-66a001e37e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flotillas\CameraFlotilla">
+      <UniqueIdentifier>{793fd82e-36c0-45b2-8083-ee72be56ef94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flotillas\Fleet">
+      <UniqueIdentifier>{5130b574-09a4-44f0-b376-e483a19d745e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Debug.h">
+      <Filter>Debug Class</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GameObject\Related Classes\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleModel.h">
+      <Filter>GameObject\Related Classes\Particle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Apperance.h">
+      <Filter>GameObject\Related Classes\Apperance</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Vector Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Friction.h">
+      <Filter>GameObject\Related Classes\Particle Model\PhysicModels</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>GameObject\Related Classes\Particle Model\PhysicModels</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces.h">
+      <Filter>GameObject\Related Classes\Particle Model\PhysicModels</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystems.h">
+      <Filter>GameObject\Related Classes\Particle Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Structures &amp; math</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Structures &amp; math</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>GameObject\Related Classes\Rigid body</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainArray.h">
+      <Filter>Terrain Generation\Related Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Flotilla.h">
+      <Filter>Flotillas\GameObjectFlotilla</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFlotilla.h">
+      <Filter>Flotillas\CameraFlotilla</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTex.h">
+      <Filter>Terrain Generation\Related Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainVertex.h">
+      <Filter>Terrain Generation\Related Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Fleet.h">
+      <Filter>Flotillas\Fleet</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalCalculator.h">
+      <Filter>Structures &amp; math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Debug.cpp">
+      <Filter>Debug Class</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GameObject\Related Classes\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleModel.cpp">
+      <Filter>GameObject\Related Classes\Particle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Apperance.cpp">
+      <Filter>GameObject\Related Classes\Apperance</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Vector Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Friction.cpp">
+      <Filter>GameObject\Related Classes\Particle Model\PhysicModels</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>GameObject\Related Classes\Particle Model\PhysicModels</Filter>
+    </ClCompile>
+    <ClCompile Include="Forces.cpp">
+      <Filter>GameObject\Related Classes\Particle Model\PhysicModels</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystems.cpp">
+      <Filter>GameObject\Related Classes\Particle Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera Class</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>GameObject\Related Classes\Rigid body</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainArray.cpp">
+      <Filter>Terrain Generation\Related Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Flotilla.cpp">
+      <Filter>Flotillas\GameObjectFlotilla</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFlotilla.cpp">
+      <Filter>Flotillas\CameraFlotilla</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTex.cpp">
+      <Filter>Terrain Generation\Related Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainVertex.cpp">
+      <Filter>Terrain Generation\Related Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fleet.cpp">
+      <Filter>Flotillas\Fleet</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalCalculator.cpp">
+      <Filter>Structures &amp; math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11 Framework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="DX11 Framework.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\floor.dds">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\stone.dds">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
